@@ -1,1 +1,1 @@
-# Multi-Region_VPC
+# Multi-Region_VPC_Two-Tier Application
