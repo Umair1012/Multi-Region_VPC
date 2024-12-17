@@ -1,5 +1,3 @@
-# Multi-Region_VPC_Two-Tier Application
-
  
 # Flask App with MySQL Docker Setup
 
