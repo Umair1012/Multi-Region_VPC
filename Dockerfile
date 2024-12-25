@@ -1,4 +1,4 @@
-# ------------------- Stage 1: Build Stage ------------------------------
+ ------------------- Stage 1: Build Stage ------------------------------
 FROM python:3.9 AS builder
 
 # Set working directory for build stage
@@ -40,4 +40,5 @@ EXPOSE 5000
 
 # Set the default command to run the application
 CMD ["python", "app.py"]
+
 
