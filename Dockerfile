@@ -1,4 +1,4 @@
- ------------------- Stage 1: Build Stage ------------------------------
+# ------------------- Stage 1: Build Stage ------------------------------
 FROM python:3.9 AS builder
 
 # Set working directory for build stage
@@ -16,7 +16,7 @@ RUN apt-get update && \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# ------------------- Stage 2: Final Stage ------------------------------
+# ------------------ Stage 2: Final Stage ----------------------- 
 FROM python:3.9-slim
 
 # Set working directory for the final stage
