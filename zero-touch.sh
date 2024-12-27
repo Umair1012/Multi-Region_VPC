@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Deploy a twotier flask app and handle errors
